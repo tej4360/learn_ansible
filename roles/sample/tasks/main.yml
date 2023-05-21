@@ -1,0 +1,3 @@
+- name: role sample
+  ansible.builtin.debug:
+    msg: hello world
