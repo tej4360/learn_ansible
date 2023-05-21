@@ -1,5 +1,6 @@
-- name: roles example
+- name: Ansible test play book
   hosts: all
   roles:
     sample
+
 
