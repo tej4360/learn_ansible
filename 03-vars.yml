@@ -17,5 +17,5 @@
 - name: "role level var example"
   hosts: all
   roles:
-    sample
+    - sample
 
