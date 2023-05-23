@@ -7,6 +7,6 @@
       ansible.builtin.debug:
         msg: play level task 1 URL - {{ URL }}
     - name: "task2"
-      ansible.builtin.debig:
+      ansible.builtin.debug:
         msg: play level task2 URL - {{ URL }}
 
