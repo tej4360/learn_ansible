@@ -5,3 +5,4 @@
   tasks: "Play level variable"
   ansible.default.debug:
     msg: play level URL - {{ URL }}
+
