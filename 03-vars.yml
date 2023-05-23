@@ -9,4 +9,9 @@
     - name: "task2"
       ansible.builtin.debug:
         msg: play level task2 URL - {{ URL }}
+    - name: "task 3"
+      ansible.builtin.debug:
+        msg: task level var URL - {{ URL  }}
+      vars:
+        URL: task.url.com
 
