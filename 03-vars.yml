@@ -3,6 +3,6 @@
   vars:
     URL: play.url.com
   tasks: "Play level variable"
-  ansible.default.debug:
+  ansible.builtin.debug:
     msg: play level URL - {{ URL }}
 
